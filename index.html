@@ -28,7 +28,7 @@
 
 <body>
 
-    <!-- Header Start -->
+    <!-- Header-Content-Start -->
     <header>
         <nav>
             <div class="navContainer navContent ">
@@ -42,7 +42,9 @@
             </div>
         </nav>
     </header>
-    <!-- Header End -->
+    <!-- Header-Content-End -->
+    
+    <!-- Main-Content-Start -->
     <main>
         <section class="loginContent">
             <div class="mainContainer">
@@ -52,25 +54,28 @@
                     <h2>KOBIL OTP</h2>
                 </span>
 
-                <h4 class="AsanImzaMobilNomresi">ASAN İmza mobil nömrəsi</h4>
 
                 <div class="phoneNumberContent">
-                    <div class="countryPhoneRegion">
-                        <p>+944</p>
-                    </div>
-                    <form action="">
-                        <label for="phoneNumber"></label>
-                        <input type="text" name="" id="phoneNumber">
+
+                    <form style="position: relative;" action="">
+                        <label for="phoneNumber">
+                            <h4 class="AsanImzaMobilNomresi">ASAN İmza mobil nömrəsi</h4>
+                        </label>
+                        <input type="text" name="" id="phoneNumber" >
+                        <div class="countryPhoneRegion">
+                            <p>+944</p>
+                        </div>
                     </form>
                 </div>
 
-                <h4 class="AsanImzaIstifadeciId"> ASAN İmza istifadəçi ID-si</h4>
 
                 <div class="asanIstifadeciIdContent">
 
                     <form action="">
-                        <label for="asanId"></label>
-                        <input type="text" name="" id="asanId">
+                        <label for="asanId">
+                            <h4 class="AsanImzaIstifadeciId"> ASAN İmza istifadəçi ID-si</h4>
+                        </label>
+                        <input type="text" name="" id="asanId" >
                     </form>
                 </div>
 
@@ -87,7 +92,9 @@
         </section>
 
     </main>
+    <!-- Main-Content-End -->
 
+    <!-- Footer-Content-Start -->
     <footer>
         <div class="footerContent">
             <div>
@@ -99,6 +106,8 @@
             </div>
         </div>
     </footer>
+    <!-- Footer-Content-End -->
+
 
 
 
